@@ -7,6 +7,7 @@ namespace SitoPyanoProject
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Roma pidor");
         }
     }
 }

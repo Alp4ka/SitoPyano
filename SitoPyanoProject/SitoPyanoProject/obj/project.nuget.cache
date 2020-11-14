@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "L7qFyO2gr5qeYzV7xD2Oryst9Myq89Wx/md6i6LhfvHWmkW1ZnaQHGlHWR43TSsJJWN0TtkZxlDjV9t6aJVYyw==",
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+=======
+  "dgSpecHash": "M4hYmqlYv/ppoKCbJcnI7qHCTqr4AfCMct3nG40TiNwvhNuk26IdG06i6IevxLldLKQgxl6m+RPeCjJvmV20pQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+>>>>>>> main
   "expectedPackageFiles": [],
   "logs": []
 }
