@@ -1,0 +1,4 @@
+\\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfo.cs
+\\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csproj.CoreCompileInputs.cache

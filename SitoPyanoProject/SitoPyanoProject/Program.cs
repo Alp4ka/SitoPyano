@@ -6,8 +6,13 @@ namespace SitoPyanoProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Roma pidor");
+            Console.WriteLine("Продукты:напитки:коктейли" + '\n' +
+                              "        :еда:блюдо" + '\n' +
+                              "Продукты[цена,себестоимость,количество,название]" + '\n' +
+                              "Напитки[емкость,сдержание алкоголя]" + '\n' +
+                              "Коктейли[Состав из напитков]" + '\n' +
+                              "Еда[вес ящиков]" + '\n' +
+                              "Блюдо[Состав из еды, категория]");
         }
     }
 }

@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {}
   },
   "projects": {
@@ -17,31 +16,12 @@
         "configFilePaths": [
           "C:\\Users\\dilan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-    "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {}
-  },
-  "projects": {
-    "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
-        "projectName": "SitoPyanoProject",
-        "projectPath": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
-        "packagesPath": "C:\\Users\\79387\\.nuget\\packages\\",
-        "outputPath": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\79387\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> main
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-=======
->>>>>>> main
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,11 +52,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Users\\79387\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
->>>>>>> main
         }
       }
     }
