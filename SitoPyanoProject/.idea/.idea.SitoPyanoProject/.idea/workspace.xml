@@ -35,6 +35,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SitoPyanoProject/Program.cs" />
+        <option value="$PROJECT_DIR$/ClassLib/Class1.cs" />
+        <option value="$PROJECT_DIR$/ClassLib/Product.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605368477463</updated>
-      <workItem from="1605368490010" duration="55000" />
+      <workItem from="1605368490010" duration="1087000" />
     </task>
     <servers />
   </component>
@@ -97,5 +99,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="193" key="Rider.ProjectTemplateDialog.Size" timestamp="1605369594841">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Rider.ProjectTemplateDialog.Size/0.0.1440.920@0.0.1440.920" timestamp="1605369594841" />
   </component>
 </project>

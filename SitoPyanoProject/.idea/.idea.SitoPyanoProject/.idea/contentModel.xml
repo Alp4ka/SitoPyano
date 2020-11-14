@@ -4,6 +4,19 @@
     <e p="C:\Users\79387\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\79387\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_SitoPyanoProject.1419135660.00" t="ExcludeRecursive" />
     <e p="D:\GitKraken\SitoPyano\SitoPyanoProject" t="IncludeFlat">
+      <e p="ClassLib" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class.cs" t="Include" />
+        <e p="ClassLib.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ClassLib.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Product.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SitoPyanoProject" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
