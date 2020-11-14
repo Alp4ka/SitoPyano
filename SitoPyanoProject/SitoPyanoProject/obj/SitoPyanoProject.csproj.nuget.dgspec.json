@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {
+    "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
         "projectName": "SitoPyanoProject",
-        "projectPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
-        "packagesPath": "C:\\Users\\kisam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+        "packagesPath": "C:\\Users\\dilan\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kisam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dilan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
