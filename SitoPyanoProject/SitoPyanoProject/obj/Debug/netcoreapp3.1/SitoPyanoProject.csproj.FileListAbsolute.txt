@@ -2,3 +2,16 @@
 \\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfoInputs.cache
 \\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfo.cs
 \\Mac\Home\Desktop\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csproj.CoreCompileInputs.cache
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csprojAssemblyReference.cache
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfoInputs.cache
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfo.cs
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csproj.CoreCompileInputs.cache
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.exe
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.deps.json
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.runtimeconfig.json
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.runtimeconfig.dev.json
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.dll
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.pdb
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.dll
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.pdb
+C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.genruntimeconfig.cache

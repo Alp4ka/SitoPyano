@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7qFyO2gr5qeYzV7xD2Oryst9Myq89Wx/md6i6LhfvHWmkW1ZnaQHGlHWR43TSsJJWN0TtkZxlDjV9t6aJVYyw==",
+  "dgSpecHash": "CF7IpuAhIcnH2envkf0fnMrbTjbO9LDwfdsEKpTEfvjg86JAKoqz9Cj6O0ts+nKK/EIEBbBjoynA3Kd6Jx0Tkg==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+  "projectFilePath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file \\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
