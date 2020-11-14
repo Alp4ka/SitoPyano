@@ -5,17 +5,15 @@ using System.Linq;
 
 namespace SitoPyanoProject
 {
-    public class Menu : List<IPunctOfMenu>
+    public class Menu : List<PunctOfMenu>
     {
-        private List<Cocktail> cocktails;
-        private List<Dish> dishes;
-        public List<Cocktail> Cocktails
+        private List<PunctOfMenu> Cocktails
         {
-            get => base.FindAll(x => x is Cocktail);
+            get => FindAll(x => x is Cocktail);
         }
-        public List<Dish> Dishes
+        private List<PunctOfMenu> Dishes
         {
-            get => base.FindAll(x => x is Dish);
+            get => FindAll(x => x is Dish);
         }
     }
 }

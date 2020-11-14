@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace SitoPyanoProject
 {
-    public interface IPunctOfMenu
+    public abstract class PunctOfMenu
     {
-        public double Price { get; protected set; }
+        public double Price { get; set; }
+        public string Name { get; set; }
+        public List<Product> Components { get; set; }
     }
 }
