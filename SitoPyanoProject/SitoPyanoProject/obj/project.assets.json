@@ -8,26 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kisam\\.nuget\\packages\\": {}
+    "C:\\Users\\79387\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+      "projectUniqueName": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
       "projectName": "SitoPyanoProject",
-      "projectPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
-      "packagesPath": "C:\\Users\\kisam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\",
+      "projectPath": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\SitoPyanoProject.csproj",
+      "packagesPath": "C:\\Users\\79387\\.nuget\\packages\\",
+      "outputPath": "D:\\GitKraken\\SitoPyano\\SitoPyanoProject\\SitoPyanoProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kisam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\79387\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\79387\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
