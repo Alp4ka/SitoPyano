@@ -46,5 +46,10 @@ namespace ClassLib
                 $"Цена: {Price} руб.шт.\n" +
                 $"Количество: {Count} шт.\n";
         }
+
+        public Product(double price, int count, string name)
+        {
+            
+        }
     }
 }
