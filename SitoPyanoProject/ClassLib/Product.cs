@@ -8,5 +8,10 @@
         {
             return base.ToString() + Price;
         }
+
+        public Product(double price, int count, string name)
+        {
+            
+        }
     }
 }

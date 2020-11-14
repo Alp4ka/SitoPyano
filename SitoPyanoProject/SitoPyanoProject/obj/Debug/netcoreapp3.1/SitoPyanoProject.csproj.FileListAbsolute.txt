@@ -15,3 +15,16 @@ C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoP
 C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.dll
 C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.pdb
 C:\Users\kisam\OneDrive\Рабочий стол\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.genruntimeconfig.cache
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.exe
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.deps.json
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.runtimeconfig.json
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.runtimeconfig.dev.json
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.dll
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\bin\Debug\netcoreapp3.1\SitoPyanoProject.pdb
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csprojAssemblyReference.cache
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfoInputs.cache
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.AssemblyInfo.cs
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.csproj.CoreCompileInputs.cache
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.dll
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.pdb
+D:\GitKraken\SitoPyano\SitoPyanoProject\SitoPyanoProject\obj\Debug\netcoreapp3.1\SitoPyanoProject.genruntimeconfig.cache
