@@ -19,6 +19,7 @@ namespace SitoPyanoProject
                 }
                 else
                 {
+                    Console.WriteLine("{0}", string.Join('\n', input[i]));
                     Beverages exemplar = new Beverages(input[i][1], int.Parse(input[i][2]), double.Parse(input[i][3]), int.Parse(input[i][4]), input[i][5]);
                     Storage.AddProduct(exemplar);
                 }
@@ -63,8 +64,10 @@ namespace SitoPyanoProject
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите ссылку на список закупок");
-            AddToStorage(Console.ReadLine());
+            Console.WriteLine("Введите ссылку на список закупок.");
+            AddToStorage("//Mac/Home/Desktop/SitoPyano/SitoPyanoProject/Storage.txt");
+            Console.WriteLine("Введите ссылку на список меню.");
+            AddToMenu("//Mac/Home/Desktop/SitoPyano/SitoPyanoProject/Menu.txt");
         }
     }
 }

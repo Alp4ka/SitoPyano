@@ -7,8 +7,8 @@ namespace SitoPyanoProject
 {
     class Storage
     {
-        public static List<Product> AllProducts { get; set; }
-        public static void AddProduct(Product product)
+        public List<Product> AllProducts { get; set; }
+        public void AddProduct(Product product)
         {
             AllProducts.Add(product);
         }
@@ -27,7 +27,7 @@ namespace SitoPyanoProject
             AllProducts[productIndex].Count--;
             return true;
         }
-        public static Product GetProductByName(string name)
+        public Product GetProductByName(string name)
         {
             if (CheckIfExists(name))
             {
@@ -35,7 +35,7 @@ namespace SitoPyanoProject
             }
             return null;
         }
-        public static bool CheckIfExists(string name)
+        public bool CheckIfExists(string name)
         {
             return AllProducts.Where(x => x.Name == name).ToList().Count > 0;
         }
