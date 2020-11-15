@@ -40,7 +40,6 @@ namespace SitoPyanoProject
 
             Name = name;
             Price = price;
-            if(Components.FindIndex(x=> x is Beverages && x.BeverageType == "Alco"))
         }
     }
 }

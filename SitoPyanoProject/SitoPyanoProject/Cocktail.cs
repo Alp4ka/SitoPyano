@@ -39,6 +39,14 @@ namespace SitoPyanoProject
             }
             Name = name;
             Price = price;
+            if (Components.FindIndex(x => x is Beverages && (x as Beverages).BeverageType == "Alco") != -1)
+            {
+                Type = "Alco";
+            }
+            else
+            {
+                Type = "Non-Alco";
+            }
         }
     }
 }
