@@ -8,7 +8,7 @@ namespace SitoPyanoProject
     class Storage
     {
         public static List<Product> AllProducts { get; set; }
-        public void AddProduct(Product product)
+        public static void AddProduct(Product product)
         {
             AllProducts.Add(product);
         }
