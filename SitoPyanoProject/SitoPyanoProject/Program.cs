@@ -72,7 +72,7 @@ namespace SitoPyanoProject
             while (true) 
             {
                 Console.Write("Введите название: ");
-                string input = Console.ReadLine();
+                string input = Console.ReadLine().Replace(" ", "_");
                 if (input == "1")
                 {
                     break;
