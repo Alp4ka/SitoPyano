@@ -4,18 +4,41 @@ using System.Text;
 
 namespace SitoPyanoProject
 {
-    class Cocktail
-    { 
-        public IPunctOfMenu Parametrs { get; set; }
-        public Cocktail(List<string> components)
+    class Cocktail : IPunctOfMenu
+    {
+        private static double price;
+        private static string name;
+        public List<Product> components = new List<Product>();
+        public string Type { get; set; }
+        public bool IsAvailable { get; set; }
+        public double Price
         {
-            Parametrs.Name = components[0];
-            Parametrs.Price = double.Parse(components[1]);
-            Parametrs.Type = components[2];
-            for (int i = 0; i < components.Count-3; i++)
+            get => price;
+            set
             {
-                Parametrs.Components = NameOfProduct.allProducts.FindAll(x => x.Name == components[i + 3]);
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Цена не может быть меньше 0");
+                }
             }
+        }
+        public string Name { get => name; set { name = value; } }
+        public List<Product> Components => components;
+
+        public Cocktail(List<string> components, string name, double price)
+        {
+            IsAvailable = true;
+            foreach (string component in components)
+            {
+                if (!Storage.CheckIfExists(component))
+                {
+                    Components.Add(Storage.GetProductByName(component));
+                    IsAvailable = false;
+                    break;
+                }
+            }
+            Name = name;
+            Price = price;
         }
     }
 }

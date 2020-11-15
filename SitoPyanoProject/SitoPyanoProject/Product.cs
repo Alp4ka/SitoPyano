@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SitoPyanoProject
 {
-    public class Product
+    public abstract class Product
     {
         private double price;
         private int count;

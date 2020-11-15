@@ -5,13 +5,13 @@ using System.Linq;
 
 namespace SitoPyanoProject
 {
-    interface IPunctOfMenu
+    public interface IPunctOfMenu
     {
-        public static double price;
-        public static string name;
-        public static string type;
+        private static double price;
+        private static string name;
         public static List<Product> components = new List<Product>();
-        public double Price 
+        public bool IsAvailable { get; set; }
+        public double Price
         {
             get => price;
             set
@@ -23,7 +23,6 @@ namespace SitoPyanoProject
             }
         }
         public string Name => name;
-        public string Type => type;
         public List<Product> Components => components;
     }
 }
