@@ -7,13 +7,17 @@ namespace SitoPyanoProject
 {
     public class Menu : List<IPunctOfMenu>
     {
-        public List<Cocktail> Cocktails
+        public List<IPunctOfMenu> Cocktails
         {
-            get => base.FindAll(x => x is Cocktail);
+            get => FindAll(x => x is Cocktail);
         }
-        public List<Dish> Dishes
+        public List<IPunctOfMenu> Dishes
         {
-            get => base.FindAll(x => x is Dish);
+            get => FindAll(x => x is Dish);
+        }
+        public override string ToString()
+        {
+            return "Коктейли: \n" + String.Join("\n\n", Cocktails) + "\n\n\nЕда: \n" + String.Join("\n\n", Dishes) ;
         }
     }
 }

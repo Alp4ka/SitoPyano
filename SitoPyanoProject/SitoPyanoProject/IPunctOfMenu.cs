@@ -7,8 +7,9 @@ namespace SitoPyanoProject
 {
     public interface IPunctOfMenu
     {
-        public double Price { get; protected set; }
-        public string Name { get; protected set; }
-        public List<Product> Components { get; protected set; }
+        public bool IsAvailable { get; set; }
+        public double Price { get; set; }
+        public string Name { get; set; }
+        public List<Product> Components { get; }
     }
 }
