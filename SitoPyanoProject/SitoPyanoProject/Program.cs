@@ -6,12 +6,9 @@ namespace SitoPyanoProject
 {
     public class Program
     {
-        /*public bool GetOrder()
-        {
-            if(Stao)
-        }*/
         public static Menu menu = new Menu();
         public static Storage storage = new Storage();
+        public static double profit  = 0;
         public static void AddToStorage(string path)
         {
             List<string[]> input = FileReader(path);
@@ -66,11 +63,48 @@ namespace SitoPyanoProject
             }
             return input;
         }
+        public static bool GetOrder()
+        {
+            Orders order = new Orders();
+            Console.WriteLine("Вводите список желаемых блюд и напитков в столбик." + '\n' +
+                              "Чтобы закончит введите 1." + '\n');
+            string[] allProducts = menu.Select(x => x.Name).ToArray();
+            while (true) 
+            {
+                Console.Write("Введите название: ");
+                string input = Console.ReadLine();
+                if (input == "1")
+                {
+                    break;
+                }
+                else if (input == "0") 
+                {
+                    return false;
+                }
+                if (!allProducts.Contains(input))
+                {
+                    Console.WriteLine("Некорректный ввод.");
+                }
+                else
+                {
+                    var example = menu[Array.IndexOf(allProducts, input)];
+                    profit += example.Price;
+                }
+            }
+            return true;
+        }
         static void Main(string[] args)
         {
             AddToStorage(Path.Combine("./../../../../Storage.txt"));
             AddToMenu("./../../../../Menu.txt");
             Console.WriteLine(menu);
+            bool start = true;
+            while (start)
+            {
+                Console.WriteLine("\n Чтобы закончить выбор заказов введите 0.");
+                start = GetOrder();
+            }
+            Console.WriteLine($"Прибыль: {profit}");
         }
     }
 }
