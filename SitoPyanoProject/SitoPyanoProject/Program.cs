@@ -1,18 +1,15 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
 namespace SitoPyanoProject
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Продукты:напитки:коктейли" + '\n' +
-                              "        :еда:блюдо" + '\n' +
-                              "Продукты[цена,себестоимость,количество,название]" + '\n' +
-                              "Напитки[емкость,сдержание алкоголя]" + '\n' +
-                              "Коктейли[Состав из напитков]" + '\n' +
-                              "Еда[вес ящиков]" + '\n' +
-                              "Блюдо[Состав из еды, категория]");
+            Food food1 = new Food(10,10,10,"banana");
+            NameOfProduct.AllProducts.Add(food1);
+            Cocktail ban = new Cocktail("banana 20 noalck banana".Split(' ').ToList());
         }
     }
 }
