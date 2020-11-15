@@ -25,7 +25,7 @@ namespace SitoPyanoProject
         public string Name { get => name; set { name = value; } }
         public List<Product> Components => components;
 
-        public Dish(List<string> components, string name, double price)
+        public Dish(string name, double price, List<string> components)
         {
             IsAvailable = true;
             foreach (string component in components)

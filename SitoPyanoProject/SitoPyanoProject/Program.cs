@@ -6,6 +6,7 @@ namespace SitoPyanoProject
 {
     public class Program
     {
+        public static Menu menu = new Menu();
         public static void AddToStorage(string path)
         {
             List<string[]> input = FileReader(path);
@@ -25,7 +26,29 @@ namespace SitoPyanoProject
         }
         public static void AddToMenu(string path)
         {
-
+            List<string[]> input = FileReader(path);
+            for (int i = 1; i < int.Parse(input[0][0]); i++)
+            {
+                if (input[i][0] == "Блюдо")
+                {
+                    Dish exemplar = new Dish(input[i][1],double.Parse(input[i][2]),ReturnComponents(input[i]));
+                    menu.Add(exemplar);
+                }
+                else
+                {
+                    Cocktail exemplar = new Cocktail(input[i][1], double.Parse(input[i][2]), ReturnComponents(input[i]));
+                    menu.Add(exemplar);
+                }
+            }
+        }
+        public static List<string> ReturnComponents(string[] input)
+        {
+            List<string> returner = new List<string>();
+            for (int i = 3; i < input.Length; i++)
+            {
+                returner.Add(input[i]);
+            }
+            return returner;
         }
         public static List<string[]> FileReader(string path)
         {
