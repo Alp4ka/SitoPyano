@@ -6,10 +6,9 @@ namespace SitoPyanoProject
 {
     class Dish : IPunctOfMenu
     {
-        private static double price;
-        private static string name;
+        private double price;
+        private string name;
         public List<Product> components = new List<Product>();
-        public string Type { get; set; }
         public bool IsAvailable { get; set; }
         public double Price
         {
@@ -20,26 +19,34 @@ namespace SitoPyanoProject
                 {
                     throw new ArgumentException("Цена не может быть меньше 0");
                 }
+                price = value;
             }
         }
         public string Name { get => name; set { name = value; } }
         public List<Product> Components => components;
 
-        public Dish(string name, double price, List<string> components)
+        public Dish(string name, double price, List<string> components, Storage storage)
         {
             IsAvailable = true;
             foreach (string component in components)
             {
-                if (!Storage.CheckIfExists(component))
+                if (!storage.CheckIfExists(component))
                 {
-                    Components.Add(Storage.GetProductByName(component));
                     IsAvailable = false;
                     break;
+                }
+                else
+                {
+                    Components.Add(storage.GetProductByName(component));
                 }
             }
 
             Name = name;
             Price = price;
+        }
+        public override string ToString()
+        {
+            return $"{Name.Replace("_", " ")}, {IsAvailable}, {Price} руб.";
         }
     }
 }

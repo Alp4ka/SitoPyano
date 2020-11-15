@@ -6,38 +6,42 @@ namespace SitoPyanoProject
 {
     public class Program
     {
+        /*public bool GetOrder()
+        {
+            if(Stao)
+        }*/
         public static Menu menu = new Menu();
+        public static Storage storage = new Storage();
         public static void AddToStorage(string path)
         {
             List<string[]> input = FileReader(path);
-            for (int i = 1; i < int.Parse(input[0][0]); i++)
+            for (int i = 1; i < int.Parse(input[0][0])+1; i++)
             {
                 if (input[i][0] == "Еда")
                 {
                     Food exemplar = new Food(int.Parse(input[i][1]), double.Parse(input[i][2]), int.Parse(input[i][3]), input[i][4]);
-                    Storage.AddProduct(exemplar);
+                    storage.AllProducts.Add(exemplar);
                 }
                 else
                 {
-                    Console.WriteLine("{0}", string.Join('\n', input[i]));
                     Beverages exemplar = new Beverages(input[i][1], int.Parse(input[i][2]), double.Parse(input[i][3]), int.Parse(input[i][4]), input[i][5]);
-                    Storage.AddProduct(exemplar);
+                    storage.AllProducts.Add(exemplar);
                 }
             }
         }
         public static void AddToMenu(string path)
         {
             List<string[]> input = FileReader(path);
-            for (int i = 1; i < int.Parse(input[0][0]); i++)
+            for (int i = 1; i < int.Parse(input[0][0])+1; i++)
             {
                 if (input[i][0] == "Блюдо")
                 {
-                    Dish exemplar = new Dish(input[i][1],double.Parse(input[i][2]),ReturnComponents(input[i]));
+                    Dish exemplar = new Dish(input[i][1], double.Parse(input[i][2]), ReturnComponents(input[i]), storage);
                     menu.Add(exemplar);
                 }
                 else
                 {
-                    Cocktail exemplar = new Cocktail(input[i][1], double.Parse(input[i][2]), ReturnComponents(input[i]));
+                    Cocktail exemplar = new Cocktail(input[i][1], double.Parse(input[i][2]), ReturnComponents(input[i]), storage);
                     menu.Add(exemplar);
                 }
             }
@@ -64,10 +68,9 @@ namespace SitoPyanoProject
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите ссылку на список закупок.");
-            AddToStorage("//Mac/Home/Desktop/SitoPyano/SitoPyanoProject/Storage.txt");
-            Console.WriteLine("Введите ссылку на список меню.");
-            AddToMenu("//Mac/Home/Desktop/SitoPyano/SitoPyanoProject/Menu.txt");
+            AddToStorage(Path.Combine("./../../../../Storage.txt"));
+            AddToMenu("./../../../../Menu.txt");
+            Console.WriteLine(menu);
         }
     }
 }

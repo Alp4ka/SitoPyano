@@ -14,7 +14,7 @@ namespace SitoPyanoProject
 
         public override string ToString()
         {
-            return base.ToString() + $"{BeverageType}; {Size:F1}";
+            return $"{BeverageType}; {Size:F1}";
         }
     }
 }

@@ -15,5 +15,9 @@ namespace SitoPyanoProject
         {
             get => FindAll(x => x is Dish);
         }
+        public override string ToString()
+        {
+            return "Коктейли: \n" + String.Join("\n\n", Cocktails) + "\n\n\nЕда: \n" + String.Join("\n\n", Dishes) ;
+        }
     }
 }

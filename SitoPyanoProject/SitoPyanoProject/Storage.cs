@@ -5,13 +5,9 @@ using System.Linq;
 
 namespace SitoPyanoProject
 {
-    class Storage
+    public class Storage
     {
-        public List<Product> AllProducts { get; set; }
-        public void AddProduct(Product product)
-        {
-            AllProducts.Add(product);
-        }
+        public List<Product> AllProducts = new List<Product>();
         public bool DecrementProductAmountByName(string productName)
         {
             int productIndex = AllProducts.FindIndex(x => x.Name == productName);
