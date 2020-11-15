@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj": {
+    "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj",
-        "packagesPath": "C:\\Users\\kisam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kisam\\OneDrive\\Рабочий стол\\SitoPyano\\SitoPyanoProject\\ClassLib\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\ClassLib\\ClassLib.csproj",
+        "packagesPath": "C:\\Users\\dilan\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\SitoPyano\\SitoPyanoProject\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kisam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dilan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
