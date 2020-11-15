@@ -7,8 +7,6 @@ namespace SitoPyanoProject
 {
     public class Menu : List<IPunctOfMenu>
     {
-        private List<Cocktail> cocktails;
-        private List<Dish> dishes;
         public List<Cocktail> Cocktails
         {
             get => base.FindAll(x => x is Cocktail);
